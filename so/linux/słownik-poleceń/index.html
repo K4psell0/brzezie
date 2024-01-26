@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	<body>
+<div class="body">
+										<!--POCZĄTEK header -->
+		<div class="pad">
+			<a href="Projekt-strona-www/index.html"><img src="pad.jfif" style="weight: 120px; height: 120px; display: block;"></a>
+		</div>
+		<style>
+			.pad {
+				float: left;
+			}
+		</style>
+
+		<div class="header">
+			<p>&nbsp;</p>	
+			<div class="header-1"><h1>】Linuxowy słownik poleceń【</h1></div>		
+		</div>
+		<style>
+			.header {
+				width: 100%;
+				height: 120px;
+				background-color: #404040;
+				text-align: center;
+				color: #f8f8f8;
+				font-family: Trebuchet MS;
+			}
+			
+		</style>
+										<!--KONIEC header -->
+		
+
+
+
+										<!--POCZĄTEK aside -->
+			<!--<div class="aside">
+			<p>
+
+			</p>
+			</div>
+
+		<style>
+			.aside {
+				float: left;
+				width: 200px;
+				height: 1000px;
+				background-color: #0f0f0f;
+				font-family: Franklin Gothic Medium;
+				color: #e2e2e2;
+				text-align: center;	
+
+				content: "";
+    			display: table;
+    			clear: both;		
+			}
+		</style>-->
+
+										<!--KONIEC aside -->
+
+										<!--POCZĄTEK content -->
+		<div class="content">
+			<ul>
+				<li>help - skrócona pomoc konkretnego polecenia</li>
+				<li>man "polecenie" - szczegółowe informacje na temat danej komendy</li>
+				<li>ls - wyświetla listę plików i katalogów znajdujących się w bieżącym katalogu lub w określonym miejscu w systemie plików</li>
+				<li>info - wypisuje informacje na temat wskazanej komendy</li>
+				<li>apropos - info o poleceniach związanych z danym tematem</li>
+				<li>what is - skrótowa forma co dane polecenie wykonuje</li>
+				<li>where is - podaje lokalizację fizyczną pliku polecenia oraz lokalizację strony manuala</li>
+				<li>cat - kompresuje i przygotowywuje pliki do standardowego wyjścia (sekcja 1)</li>
+				<li>useradd - tworzy nowego użytkownika, zmienia informacje o istniejącym użytkowniku</li>
+				<li>vim - edytor tekstu wiersza poleceń (sekcja 1)</li>
+				<li>less - opposite for more (sekcja 1)</li>
+				<li>more - przeglądanie plików tekstowych</li>
+				<li>tar - służy do umieszczania grupy plików w jednym zbiorczym pliku (czyli do tzw. archiwum), który następnie może zostać skompresowany, np. przy użyciu gzip (sekcja 1)</li>
+				<li>chown - zmienia właściciela pliku i grupę (sekckja 1)</li>
+				<li>chmod - zmiana uprawnień do plików (sekcja 1)</li>
+				<li>mkdir - tworzenie katalogów (sekcja 1)</li>
+				<li>rmdir - usuwanie katalogów
+					<ul>
+						<li>rm nazwa - usunięcie plików</li>
+						<li>rm -r nazwa -usunięcie katalogu z całą zawartością </li>	
+					</ul>
+				</li>
+				<li>ip adress - pomaga w wyświetlaniu interfejsów i adresów IP hosta aplikacji</li>
+				<li>cd 
+					<ul>
+						<li>cd/ - przejście do katalogu głównego</li>
+						<li>cd /home - przejście do katalogu home</li>
+						<li>cd lub cd~ - przejście do katalogu domowego</li>
+					</ul>
+				</li>
+				<li>touch - zakładanie prostego pliku lub zmiany daty jego modyfikacji</li>
+				<li>cp - kopiowanie plików i katalogów
+					<ul>
+						<li>cp lista.txt - kopiowanie pliku lista.txt pod nazwą kopia_lista.txt w bieżącym katalogu</ls>
+					</ul>
+				</li>
+				<li>mr: 
+					<ul>
+						<li>mr lista.txt 
+							lista2.txt - zmiana nazwy pliku lista.txt na lista2.txt</li>
+						<li>mr lista2.txt k1 - przeniesienie pliku lista2.txt z katalogu bierzącego do katalogu k1</li>
+					</ul>
+				</li>
+				<li>su root - przełącza bierzącego użytkownika na użytkownika root</li>
+				<li>su - użytkownik zastępczy</li>
+				<li>sudo - pozwala uruchomić aplikację jako inny użytkownik systemu</li>
+				<li>adduser - tworzenie w części skonfigurowanego konta użytkownika, konfiguracja opiera się o zapis w pliku /etc/adduser.conf</li>
+				<li>useradd - tworzenie konta użytkownika</li>
+				<li>chfn - zmiana danych konta</li>
+				<li>password - zmiana hasła bieżącego użytkownika</li>
+				<li>addgroup - tworzenie grupy</li>
+				<li>usermod -g "nazwa grupy domyślnej" "nazwa użytkownika"- zmiana grupy domyślnej</li>
+				<li>usermod -aG "nazwa grupy" "nazwa użytkownika"</li>
+				<li>grep "nazwa grupy" /etc/group - wyświetla użytkowników w grupie</li>
+				<li>deluser - usuwa użytkownika</li>
+				<li>delgroup - usuwa grupę</li>
+				<li>usermod -opcja "nazwa konta" 
+					<ul><p>opcje usermod:</p>
+						<li>-u - zmiana numeru UID</li>
+						<li>-g - zmiana grupy głównej</li>
+						<li>-G - dodanie lub usunęcie z dodatkoowej grupy</li>
+						<li>-d - zmiana ścieżki dostępu do katalogu domowego</li>
+						<li>-s - zmiana bieżącego shella</li>
+						<li>-i - zmiana loginu</li>
+						<li>-c - zmiana opisu konta</li>
+						<li>-f - zablokowanie konta (liczba dni do wygaśnięcia hasła)</li>
+						<li>-e - data utraty ważności konta (MM/DD/YY)</li>
+						<li>-L - zablokowanie hasła</li>
+						<li>-U - odblokowanie hasła</li>
+					</ul>
+				</li>
+				<li>groupmood -opcja "nazwa grupy"
+					<ul><p>opcje groupmod:</p>
+						<li>-g - zmiana numeru gid</li>
+						<li>-n - zmiana nazwy grupy</li>
+					</ul>
+				</li>
+				<li>-id "nazwa konta - sprawdzanie przynależności grupowej"</li>
+				<li>groups "nazwa konta" - sprawdzanie przynależności grupowej</li>
+			</ul>
+		</div>
+
+		<style>
+			.content {
+				width: 100%;
+				height: 1201px;
+				background-color: #969696;
+
+				color: white;
+				font-family: verdana;
+				font-size: 20px;
+				padding-left: 30px;
+
+				content: "";
+    			display: table;
+    			clear: both;	
+			}
+		</style>
+										<!--KONIEC content -->
+</div>
+	</head>
+</html>
